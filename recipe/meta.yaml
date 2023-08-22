@@ -11,7 +11,7 @@ source:
   patches: 0001-exclude-tests-from-setup.py-for-conda-forge-compatib.patch
 
 build:
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
