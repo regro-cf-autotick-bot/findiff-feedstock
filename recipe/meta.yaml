@@ -8,7 +8,6 @@ package:
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
   sha256: 955f25b93b111bb4bbd47a97d1693b7cd8936e2d286756073ee1d4a5475d9307
-  patches: 0001-exclude-tests-from-setup.py-for-conda-forge-compatib.patch
 
 build:
   number: 0
