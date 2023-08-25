@@ -1,5 +1,5 @@
 {% set name = "findiff" %}
-{% set version = "0.8.9" %}
+{% set version = "0.10.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,11 +7,10 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: c89eade4ad7f7adfa3871ba00235c582ef42b6dba0e2d84c78e242be70cdbe64
-  patches: 0001-exclude-tests-from-setup.py-for-conda-forge-compatib.patch
+  sha256: 955f25b93b111bb4bbd47a97d1693b7cd8936e2d286756073ee1d4a5475d9307
 
 build:
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
