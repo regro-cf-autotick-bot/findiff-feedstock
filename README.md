@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@maroba](https://github.com/maroba/)
+* [@og113](https://github.com/og113/)
 * [@tnigon](https://github.com/tnigon/)
 
